@@ -1,0 +1,162 @@
+body {
+    margin: 0; 
+}
+
+
+.devicon-facebook-plain {
+    color: red;
+    
+}
+
+.material-symbols-outlined {
+    color: red;
+} 
+
+.profilepic {
+    border: 1px solid black;
+    
+    min-height: 90vh;
+    display: flex; 
+    margin: 40px; 
+    background-image: url(./owl.jpg); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    align-items: flex-end; 
+    
+
+    
+    
+    
+} 
+
+.me{
+    color:antiquewhite; 
+    font-family: 'Playfair Display', serif; 
+    font-size: 5rem; 
+    padding: 10px; 
+    margin-bottom: 0;
+    margin-top: auto;
+    
+}
+
+.aboutext {
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+}
+
+    
+
+
+.slash {
+    position: absolute; 
+    background-color: rgb(57, 122, 122); 
+    min-height: 60%;
+    width: 100%; 
+    z-index: -1;
+    transform: skew(0 , -10deg) translate(0 , -150px); 
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+} 
+
+.contactimage img{
+    max-width: 100%;
+} 
+
+h1 {
+    font-family: 'Playfair Display', serif; 
+} 
+
+.text {
+    font-family: 'Roboto', sans-serif; 
+    color: rgb(71, 71, 71); 
+    font-size: 1.3rem;
+} 
+
+.abouticons {
+    align-self: center;
+    font-size: 2rem;
+} 
+
+.work {
+    padding: 20px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+} 
+
+.projectcontainer {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 25px;
+} 
+
+.card {
+    min-height: 90vh; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+} 
+
+.projectimage {
+    min-height: 55vh; 
+    background-color: rgb(130, 238, 168); 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}  
+
+.projectimage span {
+    font-family: 'Playfair Display', serif; 
+    font-size: 2rem;
+} 
+
+.projectname {
+    font-family: 'Playfair Display', serif; 
+    font-size: 1.3rem;
+    display: flex; 
+    justify-content: space-between; 
+    padding: 10px 10px;
+}
+
+.workdesc {
+    font-family: 'Roboto', sans-serif; 
+    color: rgb(71, 71, 71); 
+    font-size: 1.3rem; 
+    padding: 10px;
+} 
+
+.contact {
+    display: flex; 
+    flex-wrap: wrap; 
+    background-color: rgb(36, 27, 200); 
+    color: antiquewhite;
+} 
+
+.contactext {
+    padding: 20px;
+} 
+
+.subtext {
+    font-family: 'Roboto', sans-serif; 
+    color: rgb(255, 251, 251); 
+    font-size: 1.3rem; 
+    padding: 10px;
+    font-weight: 400;
+} 
+
+h3 {
+    letter-spacing: 0.1rem; 
+    font-weight: 500;
+} 
+
+.logotext {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 20px;
+} 
+
+.contacticons { 
+    display: flex;
+    font-size: 2rem; 
+    justify-content: center; 
+    gap: 8px;
+}
